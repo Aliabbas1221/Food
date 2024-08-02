@@ -1,0 +1,59 @@
+@media (max-width:1199px) {
+    h1{
+        font-size: 65px;
+    }
+}
+@media (max-width:991px) {
+   h2{
+    font-size: 30px;
+    line-height: 40px;
+   }
+   h3{
+    font-size: 20px;
+   }
+   .header-wrapper .navbar-brand img{
+    max-width: 80px;
+   }
+   .header-wrapper .navbar-collapse{
+    margin-top: -2px;
+   }
+   .header-wrapper .menu-navbar-nav{
+    background-color: var(--bg-white);
+    text-align: center;
+    margin-bottom: -15px;
+   }
+   .header-wrapper .nav-item .nav-link{
+    margin-top: 15px;
+   }
+   .banner-top{
+    padding-top: 50px;
+   }
+   .about-wrapper{
+    padding: unset;
+   }
+   .about-wrapper .card{
+    z-index: 10;
+    right: unset;
+    top: unset;
+   }
+   .offer-wrapper .card .offer-text{
+    width: 67%;
+   }
+}
+
+@media (max-width:767px) {
+    h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .review-wrapper .carousel-caption{
+        bottom: 0;
+    }
+    .review-wrapper .carousel-item{
+        min-height: 560px;
+    }
+}
